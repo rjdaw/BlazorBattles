@@ -1,4 +1,4 @@
-﻿using BlazorBattles.Client.Shared;
+﻿using BlazorBattles.Shared;
 
 namespace BlazorBattles.Client.Services
 {

@@ -1,4 +1,4 @@
-﻿namespace BlazorBattles.Client.Shared
+﻿namespace BlazorBattles.Shared
 {
     public class UserUnit
     {
