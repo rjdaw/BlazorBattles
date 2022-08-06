@@ -4,7 +4,7 @@
 
 <h3>My Army</h3>
 
-if (UnitService.Units.Count > 0)
+@if (UnitService.Units.Count > 0)
 {
 <table class="table">
     @foreach (var userUnit in UnitService.MyUnits)
@@ -28,7 +28,7 @@ if (UnitService.Units.Count > 0)
     }
 </table>
 }
-else {s
+else {
     <span>Loading Units...</span>
 }
 
